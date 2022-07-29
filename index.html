@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/perfil.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2? família=Poppins:wght@300&family=Rajdhani&family=Roboto:wght@300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+    <script src="https://kit.fontawesome.com/271a47098a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <title>Brenner Silva</title>
+</head>
+
+<body>
+    <header>
+        <div  id="button-menu">
+            <i id="button-mobile-menu" class="fa-solid fa-burger"></i>
+        </div>
+        <nav>
+            <ul id='menu' class="menu">
+                <b>
+                    <li><a href="#section-one">Sobre Mim</a></li>
+                    <li><a href="#section-two">Habilidades</a></li>
+                    <li><a href="#section-tree">Projetos</a></li>
+                    <li><a href="#">Contato</a></li>
+                    <li><a href="#""><i id="icon-menu" class="fa-brands fa-linkedin"></i></a></li>
+                    <li><a href="#"><i id="icon-menu" class="fa-brands fa-square-github"></i></a></li>   
+                </b>
+            </ul>
+        </nav>
+        <hr id="hr-menu" size="1">
+    </header>
+
+    <section id="section-one">
+        <div class="animate__animated animate__fadeInUp animate__delay-1.5s">
+            <div class="title">
+                <img id="profile" src="/perfil.jpg">
+                <div class="name">
+                    <div class="position">
+                        <p>Olá, sou</p>
+                        <h1 id="bs">Brenner Silva</h1>
+                        <p>Desenvolvedor front-end</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="position-button">
+        <button class="animate__animated animate__fadeInUp animate__delay-1.5s"><b><a href="/Curriculo.pdf" download="">DOWNLOAD CV</a></b></button>
+        </div>
+        <div class="animate__animated animate__fadeInUp animate__delay-1.5s" id="me">
+            <p id="me">iniciando em programação no ano de 2022,<br>
+                fiz esse portifólio simples usando somente <br>
+                o conhecimento que adquiri durante meu estudo.<br>
+                Cursando Análise e Desenvolvimento de Sistemas<br>
+                busco minha primeira oportunidade na área de<br>
+                programação.
+            </p>
+
+
+        </div>
+        <hr id="hr-2" size="1">
+    </section>
+
+    
+    <section id="section-two">
+
+        <h1 id="title-skill">HABILIDADES</h1>
+        <p id="inst">Clique sobre uma tecnologia para saber a respeito.</p>
+        <p id="info"></p>
+        <div class="cards">
+            <div onclick="clique()" id="card-1" class="card-1-skill">
+                <div class="position-icon">
+                    <i id="iconSkill" class="fa-brands fa-html5"></i>
+                    <p style="color: white ;">HTML5</p>
+                </div>
+            </div>
+
+            <div onclick="cliqueDois()" id="card-2" class="card-1-skill">
+                <div class="position-icon">
+                    <i id="iconSkill" class="fa-brands fa-css3-alt"></i>
+                    <p style="color: white ;">CSS3</p>
+                </div>
+            </div>
+            <div onclick="cliqueTres()" id="card-3" class="card-1-skill">
+                <div class="position-icon">
+                    <i id="iconSkill"  class="fa-brands fa-js"></i>
+                    <p style="color: white ;">JavaScript</p>
+                </div>
+            </div>
+        </div>
+
+        <hr id="hr-3" size="1">
+    </section>
+
+    <section id="section-tree">
+        <h1 id="title-skill">PROJETOS</h1>
+        <div class="position-project">
+            <div class="project">
+                <p><b>EM BREVE</b></p>
+            </div>
+
+            <div class="project">
+                <p><b>EM BREVE</b></p>
+            </div>
+
+            <div id="no" class="project">
+                <p><b>EM BREVE</b></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>Brenner Silva &copy 2022</p>
+    </footer>
+    <script src="/app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,454 @@
+* {
+
+    padding: 0;
+    margin: 0;
+    border: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
+
+}
+
+body {
+    background-color: rgb(25, 25, 41);
+
+
+}
+
+/* menu */
+
+header {
+
+    text-align: center;
+}
+
+.menu {
+
+    margin-top: 2%;
+}
+
+li {
+    display: inline;
+    list-style: none;
+}
+
+li a {
+
+    text-decoration: none;
+    margin: 1%;
+    color: rgb(173, 162, 162);
+    font-size: 15px;
+}
+
+#hr-menu {
+
+    opacity: 10%;
+    margin-top: 2%;
+}
+
+li a:hover {
+    color: rgb(255, 255, 255);
+}
+
+#button-mobile-menu {
+
+    display: none;
+    color: rgb(173, 162, 162);
+}
+
+#button-mobile-menu:hover {
+    color: white;
+}
+
+/* iphone XR */
+@media screen and (max-width:414px) {
+
+    #button-mobile-menu {
+        display: block;
+        font-size: 20px;
+    }
+
+    #button-menu {
+
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 5%;
+        margin-top: 2%;
+        padding: 3%;
+
+    }
+
+    .menu {
+        display: none;
+        background-color: rgb(199, 199, 199);
+        padding: 30px;
+
+
+
+
+    }
+
+
+    li {
+
+        display: block;
+        margin: 10px;
+    }
+
+    li a {
+
+        color: rgb(25, 25, 41);
+
+    }
+
+    #icon-menu {
+
+        font-size: 20px;
+
+    }
+
+    #icon-menu li {
+
+        display: inline;
+    }
+}
+
+
+/* apresentação */
+
+.title {
+    margin-left: 19%;
+    margin-top: 8%;
+
+
+}
+
+#profile {
+
+    filter: drop-shadow(0 0 10rem rgb(199, 199, 199));
+    border-radius: 1px 30px 2px 50%;
+    margin-left: 50%;
+
+}
+
+.name {
+    border: 0.1px solid rgb(170, 167, 167);
+    border-radius: 5px;
+    width: 50%;
+    padding: 1%;
+    font-size: 25px;
+    margin-top: -195px;
+    margin-left: 10%;
+    color: white;
+}
+
+.position {
+
+    margin-left: 5%;
+}
+
+#me {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+    color: white;
+}
+
+button {
+
+    padding: 12px;
+    width: 8%;
+    margin-top: 3%;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(199, 199, 199);
+
+
+}
+
+button a {
+
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.position-button {
+
+    display: flex;
+    justify-content: center;
+}
+
+button:hover {
+
+    background-color: white;
+}
+
+
+/* iphone XR */
+@media screen and (max-width: 414px) {
+
+    .name {
+        margin-top: -10%;
+        margin-left: 0%;
+        font-size: 15px;
+        width: 100%;
+        padding: 10px;
+    }
+
+    #profile {
+
+        width: 150px;
+        height: 150px;
+        padding: 0;
+    }
+
+    .title {
+        width: 50%;
+        text-align: center;
+        margin-left: 21%;
+        margin-top: 15%;
+        margin-right: 25%;
+        padding: 0px;
+        font-size: ;
+    }
+
+    #me {
+
+        font-size: 13px;
+        padding: 10px;
+    }
+
+    #hr-2 {
+
+        margin-top: 50%;
+
+
+    }
+
+    button {
+        margin-top: 30px;
+        font-size: 10px;
+        width: 25%;
+    }
+
+
+
+
+}
+
+#hr-2 {
+
+    margin-top: 5%;
+    width: 50%;
+    margin-left: 25%;
+    opacity: 30%;
+}
+
+/* section-2 */
+
+#title-skill {
+
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+
+
+.card-1-skill {
+
+    border: 1px solid white;
+    width: 15%;
+    height: 150px;
+    border-radius: 1px 30px 2px 50%;
+    margin-left: 10%;
+    cursor: pointer;
+
+}
+
+.position-icon {
+
+    margin-top: -5%;
+}
+
+
+
+.cards {
+    display: flex;
+    margin-top: 6%;
+    justify-content: center;
+    margin-right: 9%;
+    text-align: center;
+}
+
+
+#iconSkill {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 20%;
+    font-size: 80px;
+    color: white;
+
+
+}
+
+/* iphone xr */
+@media screen and (max-width:414px) {
+
+    .card-1-skill {
+
+        border: none;
+        display: flex;
+        justify-content: center;
+        font-size: 10px;
+
+
+
+    }
+
+    .fa-brands {
+
+        font-size: 70px;
+    }
+
+    #inst {
+        font-size: 12px;
+    }
+
+    #title-skill {
+
+        font-size: 20px;
+    }
+
+    #iconSkill {
+
+        font-size: 65px;
+    }
+
+
+
+
+
+
+
+}
+
+#inst {
+
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: 1%;
+}
+
+
+#info {
+
+
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    color: white;
+    font-size: 14px;
+
+
+
+}
+
+
+#hr-3 {
+
+    margin-top: 10%;
+    width: 50%;
+    margin-left: 25%;
+    opacity: 30%;
+
+}
+
+
+/* section 3 */
+
+
+.project {
+
+    border: none;
+    
+    height: 300px;
+    width: 15%;
+    margin: 1%;
+    border-radius: 10px;
+    background-color:rgb(199, 199, 199);
+    color: rgb(25, 25, 41);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.project:hover {
+
+    background-color: white;
+}
+
+
+.position-project {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+
+}
+
+#hr-4 {
+
+    margin-top: 10%;
+    width: 50%;
+    margin-left: 25%;
+    opacity: 30%;
+
+}
+
+
+@media screen and (max-width:414px) {
+
+
+    .position-project {}
+
+    .project {
+
+        width: 30%;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        font-size: 10px;
+        margin: 3%;
+    }
+
+    #hr-3 {
+
+        margin-top: -1%;
+    }
+
+    #no {
+
+        display: none;
+    }
+
+}
+
+/* section-4*/
+
+footer {
+
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+
+
